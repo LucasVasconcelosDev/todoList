@@ -1,0 +1,15 @@
+.tarefas-grid {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 100px; */
+    gap: 20px;
+    /* gap: 20px 0; */
+    /* gap: 20px 143px; */
+}
+
+@media (max-width: 768px) {
+    .tarefas-grid {
+        margin-top: 35px;
+    }
+}

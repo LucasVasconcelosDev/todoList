@@ -1,0 +1,6 @@
+#tsparticles {
+    z-index: -1;
+    position: absolute;
+}
+
+/* Para eles ficarem atrás da pagina */

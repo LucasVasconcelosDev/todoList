@@ -1,0 +1,189 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+  
+  .card, .card-finalizado {
+    width: 300px;
+    border: 1px solid #ddd;
+    /* margin: 16px 0; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+  }
+
+  .card {
+    margin: 16px 88px 16px 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .card-finalizado {
+    margin: 16px 0;
+    border-radius: 8px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  
+  .card-title {
+    margin: 16px 16px 0 16px;
+    font-size: 1.4em;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .button-group {
+    display: flex;
+    position: absolute;
+    right: -150px;
+    top: -1px;
+  }
+  
+  .button-group button {
+    width: 50px;
+    height: 35px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .conclude-button {
+    background-color: #32CD32;
+    border-radius: 0;
+  }
+  
+  .conclude-button:hover {
+    background-color: #1ca31c;
+    transform: scale(1.2);
+  }
+  
+  .edit-button {
+    background-color: #4682B4;
+    border-radius: 0;
+  }
+  
+  .edit-button:hover {
+    background-color: #2d6491;
+    transform: scale(1.2);
+  }
+  
+  .delete-button {
+    background-color: #FF6347;
+    border-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  .delete-button:hover {
+    background-color: #d34329;
+    transform: scale(1.2);
+  }
+  
+  .card-body {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 16px 16px 0 16px;
+    background-color: #f6f2f2;
+    color: #666667;
+    border-radius: 0;
+    cursor: pointer;
+    border: none;
+    overflow-wrap: break-word;
+    transition: background-color 0.3s;
+  }
+  
+  .card-body p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto; /* Adjust the height based on content */
+  }
+  
+  .card-body h3 {
+    text-align: right;
+    margin: 15px 0 5px 0;
+  }
+  
+  .card-body:hover {
+    background-color: #eee4e4;
+  }
+  
+  .card-body p {
+    margin: 0 0 8px;
+  }
+  
+  .footer-pendente,
+  .footer-atrasado,
+  .footer-concluido {
+    height: 30px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 3px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .footer-pendente {
+    background-color: #4682B4;
+  }
+  
+  .footer-atrasado {
+    background-color: #FF6347;
+  }
+  
+  .footer-concluido {
+    background-color: #32CD32;
+  }
+  
+  .footer-pendente,
+  .footer-atrasado,
+  .footer-concluido p {
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+        width: 298px;
+        margin-right: 0px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+    .button-group {
+        display: flex;
+        position: absolute;
+        right: -1px;
+        top: -35px;
+    }
+
+    .button-group button {
+        width: 100px;
+        height: 35px;
+        margin: 0;
+      }
+      
+      .conclude-button {
+        border-top-left-radius: 50px;
+      }
+      
+      .delete-button {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 0;
+      }
+  }
+  

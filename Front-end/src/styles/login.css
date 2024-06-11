@@ -1,0 +1,115 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.imagem-lateral {
+    flex: 0 0 60%;
+    background-image: url('../assets/imagem-login.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 300px;
+    border-radius: 20px;
+    padding: 13px;
+    border: 1.5px solid #ccc;
+}
+
+.login-button {
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    width: 200px;
+    margin: 54px 15px 15px 60px;
+    background-color: #5F33E1;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.login-button:hover {
+background-color: #4a2cb7;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #808080;
+    font-weight: 600;
+}
+
+.register-link a {
+    color: #808080;
+    text-decoration: none;
+    border: 1.5px solid #ccc;
+    padding: 5px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        position: fixed;
+        top: 15%;
+        padding: 20px;
+    }
+
+    .imagem-lateral {
+        display: none;
+    }
+
+    .welcome {
+        margin-bottom: 0px;
+    }
+
+    .form-group input {
+        width: 200px;
+    }
+
+    .login-button {
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}

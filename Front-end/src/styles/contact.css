@@ -1,0 +1,77 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-container {
+    width: 100%;
+    position: relative;
+}
+
+.integrantes {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: "Allerta", sans-serif;
+    margin-bottom: 20px;
+}
+
+.icones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.integrante {
+    margin: 20px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrante:hover {
+    transform: translateY(-5px);
+}
+
+.imagem {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.nome {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.github-link {
+    margin-top: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.github-link:hover {
+    transform: scale(1.1);
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 600px) {
+    .integrante {
+        margin: 10px;
+    }
+}
