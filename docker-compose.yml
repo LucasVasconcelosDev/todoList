@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  
+  # Serviço de frontend
+  frontend:
+    # Configuração para construir o frontend a partir do contexto(diretório) ./front-end
+    build:
+      context: ./Front-end
+      # Define os argumentos que serão usados no processo de build do app
+      args:
+        - REACT_APP_API_URL
+    # Cria a imagem usando o login do container registriy que será usado como repositório na azure
+    # image: ${REGISTRY_LOGIN_SERVER}/frontend:v1
+    # # Pega as credenciais do registry
+    # environment:
+    #   - REGISTRY_USERNAME=${REGISTRY_USERNAME}
+    #   - REGISTRY_PASSWORD=${REGISTRY_PASSWORD}
+    # Mapeamento de porta para acesso externo, porta 3000 do host para porta 80 do contêiner
+    ports:
+      - "80:80"
+    # Dependência do serviço backend, o frontend só será iniciado após o backend estar disponível
+    depends_on:
+      - backend
+    # Referencia o arquivo de variáveis de ambiente específicas do front-end
+    env_file:
+      - ./Front-end/.env
+
+  # Serviço de backend
+  backend:
+    # Configuração para construir o backend a partir do contexto(diretório) ./back-end
+    build:
+      context: ./Back-end
+    # Cria a imagem usando o login do container registriy que será usado como repositório na azure
+    # image: ${REGISTRY_LOGIN_SERVER}/backend:v1
+    # # Pega as credenciais do registry
+    # environment:
+    #   - REGISTRY_USERNAME=${REGISTRY_USERNAME}
+    #   - REGISTRY_PASSWORD=${REGISTRY_PASSWORD}
+    # Referencia o arquivo de variáveis de ambiente do app
+    env_file:
+      - .env
+    # Mapeamento de porta para acesso externo, porta 5000 do host para porta 5000 do contêiner
+    ports:
+      - "5000:5000"
