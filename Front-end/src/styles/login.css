@@ -4,14 +4,14 @@
 }
 
 .imagem-lateral {
-    flex: 0 0 60%;
+    flex: 0 0 45%;
     background-image: url('../assets/imagem-login.jfif');
     background-size: cover;
     background-position: center;
 }
 
 .container {
-    flex: 0 0 40%;
+    flex: 0 0 55%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +45,7 @@
 }
 
 .form-group input {
-    width: 300px;
+    width: 450px;
     border-radius: 20px;
     padding: 13px;
     border: 1.5px solid #ccc;
@@ -54,8 +54,8 @@
 .login-button {
     transition: background-color 0.3s ease;
     padding: 10px;
-    width: 200px;
-    margin: 54px 15px 15px 60px;
+    width: 250px;
+    margin: 54px 0 15px 0;
     background-color: #5F33E1;
     border: none;
     border-radius: 15px;
