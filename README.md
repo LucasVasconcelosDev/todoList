@@ -29,9 +29,9 @@ O Organize-It é um aplicativo de gestão de tarefas projetado para oferecer uma
     <h3>Tela Inicial, Tela de Login e Cadastro</h3>
 </center>
 <center>
-    <img src="![home](https://github.com/LucasVasconcelosDev/todoList/assets/117478334/5b1ef426-b5f9-46ed-9937-5000a3594bf8)" alt="Tela Inicial" width="200" height="300">
-    <img src="![login](https://github.com/LucasVasconcelosDev/todoList/assets/117478334/17f41dee-66e3-4654-a74a-b3cad7e7aec9)" alt="Login" width="200" height="300">
-    <img src="![cadastro](https://github.com/LucasVasconcelosDev/todoList/assets/117478334/f984b96b-fdd0-478b-8f6d-9829fd953f53)" alt="Cadastro" width="200" height="300">
+    <img src="(https://github.com/LucasVasconcelosDev/todoList/assets/117478334/5b1ef426-b5f9-46ed-9937-5000a3594bf8" alt="Tela Inicial" width="200" height="300">
+    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/17f41dee-66e3-4654-a74a-b3cad7e7aec9" alt="Login" width="200" height="300">
+    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/f984b96b-fdd0-478b-8f6d-9829fd953f53" alt="Cadastro" width="200" height="300">
 </center>
 <br>
 <center>
@@ -46,8 +46,8 @@ O Organize-It é um aplicativo de gestão de tarefas projetado para oferecer uma
     <h3>Dashboard e Dashboard-Tarefas</h3>
 </center>
 <center>
-    <img src="![dashboard](https://github.com/LucasVasconcelosDev/todoList/assets/117478334/aca36acc-3791-4de6-a2c8-0c630f9a4c7a)" alt="Dashboard" width="200" height="300">
-    <img src="![dashboard-tarefas](https://github.com/LucasVasconcelosDev/todoList/assets/117478334/70a0ca0a-0df1-4f10-93b8-3ebf5f8d55a7)" alt="Dashboard-Tarefas"  width="200" height="300">
+    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/aca36acc-3791-4de6-a2c8-0c630f9a4c7a" alt="Dashboard" width="200" height="300">
+    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/70a0ca0a-0df1-4f10-93b8-3ebf5f8d55a7" alt="Dashboard-Tarefas"  width="200" height="300">
 </center>
 <br>
 <center>
