@@ -29,9 +29,9 @@ O Organize-It é um aplicativo de gestão de tarefas projetado para oferecer uma
     <h3>Tela Inicial, Tela de Login e Cadastro</h3>
 </center>
 <center>
-    <img src="Caminho" alt="Tela Inicial" width="200" height="300">
-    <img src="Caminho" alt="Login" width="200" height="300">
-    <img src="Caminho" alt="Cadastro" width="200" height="300">
+    <img src="./fotos readme/home.png" alt="Tela Inicial" width="200" height="300">
+    <img src="./fotos readme/login.png" alt="Login" width="200" height="300">
+    <img src="./fotos readme/cadastro.png" alt="Cadastro" width="200" height="300">
 </center>
 <br>
 <center>
@@ -46,9 +46,8 @@ O Organize-It é um aplicativo de gestão de tarefas projetado para oferecer uma
     <h3>Dashboard e Dashboard-Tarefas</h3>
 </center>
 <center>
-    <img src="Caminho" alt="Home" width="200" height="300">
-    <img src="Caminho" alt="Dashboard" width="200" height="300">
-    <img src="Caminho" alt="Dashboard-Tarefas"  width="200" height="300">
+    <img src="./fotos readme/dashboard.png" alt="Dashboard" width="200" height="300">
+    <img src="./fotos readme/dashboard-tarefas.png" alt="Dashboard-Tarefas"  width="200" height="300">
 </center>
 <br>
 <center>
