@@ -25,36 +25,55 @@ O Organize-It é um aplicativo de gestão de tarefas projetado para oferecer uma
 
 ## Tela Inicial, Tela de Login e Cadastro
 
-<center>
-    <h3>Tela Inicial, Tela de Login e Cadastro</h3>
-</center>
-<center>
-    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/5b1ef426-b5f9-46ed-9937-5000a3594bf8" alt="Tela Inicial" width="200" height="300">
-    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/17f41dee-66e3-4654-a74a-b3cad7e7aec9" alt="Login" width="200" height="300">
-    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/f984b96b-fdd0-478b-8f6d-9829fd953f53" alt="Cadastro" width="200" height="300">
-</center>
-<br>
-<center>
-    Na tela inicial, é a página que será carregada ao entrar no aplicativo. <br>
-    Na tela de login, caso o usuário tenha uma conta já criada, é possível acessá-la. Obs: possui validação tanto para email quanto para senha. <br>
-    Na tela de cadastro, caso o usuário não tenha login, ele poderá se cadastrar. Após o cadastro, um email de verificação é enviado e, após a confirmação da senha, ele pode prosseguir.
-</center>
+### Tela Inicial, Tela de Login e Cadastro
+
+<table style="width:100%">
+    <tr>
+        <td style="text-align:center;">
+            <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/5b1ef426-b5f9-46ed-9937-5000a3594bf8" alt="Tela Inicial" width="200" height="300">
+        </td>
+        <td style="text-align:center;">
+            <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/17f41dee-66e3-4654-a74a-b3cad7e7aec9" alt="Login" width="200" height="300">
+        </td>
+        <td style="text-align:center;">
+            <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/f984b96b-fdd0-478b-8f6d-9829fd953f53" alt="Cadastro" width="200" height="300">
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:center;">
+            Na tela inicial, é a página que será carregada ao entrar no aplicativo.
+        </td>
+        <td style="text-align:center;">
+            Na tela de login, caso o usuário tenha uma conta já criada, é possível acessá-la. Obs: possui validação tanto para email quanto para senha.
+        </td>
+        <td style="text-align:center;">
+            Na tela de cadastro, caso o usuário não tenha login, ele poderá se cadastrar. Após o cadastro, um email de verificação é enviado e, após a confirmação da senha, ele pode prosseguir.
+        </td>
+    </tr>
+</table>
 
 ## Dashboard e Dashboard-Tarefas
 
-<center>
-    <h3>Dashboard e Dashboard-Tarefas</h3>
-</center>
-<center>
-    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/aca36acc-3791-4de6-a2c8-0c630f9a4c7a" alt="Dashboard" width="200" height="300">
-    <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/70a0ca0a-0df1-4f10-93b8-3ebf5f8d55a7" alt="Dashboard-Tarefas"  width="200" height="300">
-</center>
-<br>
-<center>
-    No dashboard, assim que logado, o usuário poderá ver as suas categorias já existentes ou criar uma nova. <br>
-    Nas dashboard-tarefas, o usuário poderá realizar todas as operações de um CRUD relacionadas às tarefas. <br>
-    Além disso, é possível visualizar as categorias finalizadas e compartilhar suas categorias com outros usuários de forma eficiente.
-</center>
+### Dashboard e Dashboard-Tarefas
+
+<table style="width:100%">
+    <tr>
+        <td style="text-align:center;">
+            <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/aca36acc-3791-4de6-a2c8-0c630f9a4c7a" alt="Dashboard" width="200" height="300">
+        </td>
+        <td style="text-align:center;">
+            <img src="https://github.com/LucasVasconcelosDev/todoList/assets/117478334/70a0ca0a-0df1-4f10-93b8-3ebf5f8d55a7" alt="Dashboard-Tarefas" width="200" height="300">
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:center;">
+            No dashboard, assim que logado, o usuário poderá ver as suas categorias já existentes ou criar uma nova.
+        </td>
+        <td style="text-align:center;">
+            Nas dashboard-tarefas, o usuário poderá realizar todas as operações de um CRUD relacionadas às tarefas. Além disso, é possível visualizar as categorias finalizadas e compartilhar suas categorias com outros usuários de forma eficiente.
+        </td>
+    </tr>
+</table>
 
 ## Contribua
 
@@ -78,7 +97,6 @@ O Organize-It é um aplicativo de gestão de tarefas projetado para oferecer uma
 - **Andersson**
   - Papel: Assistente de Database
   - [Repositório](https://github.com/andersonbs96)
-
 
 ## Licença
 
