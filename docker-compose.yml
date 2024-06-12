@@ -11,11 +11,11 @@ services:
       args:
         - REACT_APP_API_URL
     # Cria a imagem usando o login do container registriy que será usado como repositório na azure
-    # image: ${REGISTRY_LOGIN_SERVER}/frontend:v1
+    image: ${REGISTRY_LOGIN_SERVER}/frontend:v1
     # # Pega as credenciais do registry
-    # environment:
-    #   - REGISTRY_USERNAME=${REGISTRY_USERNAME}
-    #   - REGISTRY_PASSWORD=${REGISTRY_PASSWORD}
+    environment:
+      - REGISTRY_USERNAME=${REGISTRY_USERNAME}
+      - REGISTRY_PASSWORD=${REGISTRY_PASSWORD}
     # Mapeamento de porta para acesso externo, porta 3000 do host para porta 80 do contêiner
     ports:
       - "80:80"
@@ -32,11 +32,11 @@ services:
     build:
       context: ./Back-end
     # Cria a imagem usando o login do container registriy que será usado como repositório na azure
-    # image: ${REGISTRY_LOGIN_SERVER}/backend:v1
+    image: ${REGISTRY_LOGIN_SERVER}/backend:v1
     # # Pega as credenciais do registry
-    # environment:
-    #   - REGISTRY_USERNAME=${REGISTRY_USERNAME}
-    #   - REGISTRY_PASSWORD=${REGISTRY_PASSWORD}
+    environment:
+      - REGISTRY_USERNAME=${REGISTRY_USERNAME}
+      - REGISTRY_PASSWORD=${REGISTRY_PASSWORD}
     # Referencia o arquivo de variáveis de ambiente do app
     env_file:
       - .env
