@@ -18,10 +18,9 @@ O Organize-It é um aplicativo de gestão de tarefas projetado para oferecer uma
 - [Node.js](https://nodejs.org/)
 - [Docker](https://www.docker.com/)
 
-## Escaneie o Código QR
+## Acesse nosso site...
 
-   - Utilize um aplicativo ou câmera com capacidade de leitura de QR.
-   - Escaneie o código QR gerado.
+   [Clicando aqui](https://integrador-frontend.wonderfulhill-95da378b.eastus.azurecontainerapps.io/)
 
 ## Tela Inicial, Tela de Login e Cadastro
 
